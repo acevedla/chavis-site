@@ -5,12 +5,10 @@ import './Homepage.css'
 class Homepage extends Component {
     render () {
         return (
-            <header>
-                <nav className='nav'>
-                <NavLink to='/registerform'>Sign up</NavLink>
-                <NavLink to='/login'>Log In</NavLink>
-                </nav>
-            </header>
+            <div className='bio'>
+                <h1>Text goes here</h1>
+            </div>
+    
         )
     }
 }

@@ -3,11 +3,11 @@
     margin: 0;
 }
 
-.bio {
+.homepagepictures {
     text-align: center;
-    background-color: lightgrey;
+    background-color: darkgrey;
     position: fixed;
-    left: 0;
+    right: 0;
     width: 50%;
     height: 100%;
 }
