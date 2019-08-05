@@ -1,0 +1,13 @@
+.video-links {
+    position: absolute;
+    right: 0;
+}
+
+.youtube {
+    margin: 10px;
+}
+
+.blog-text {
+    float: left;
+    width: 50%;
+}
