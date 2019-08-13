@@ -3,10 +3,35 @@
     margin: 0;
    
 }
-a {
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    src: local('Playfair Display'), url(../fonts/playfairdisplay/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: 'neuton';
+    font-style: normal;
+    src: local('nueton'), url(../fonts/neuton/Neuton-Bold.ttf);
+}
+
+a { 
     text-decoration: none;
-    color: black;
+    font-family: 'neuton';
+    color: white;
     margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    font-size: 120%;
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-links {
+    padding: 20px;
 }
 
 ul {
@@ -14,15 +39,22 @@ ul {
     padding: 0;
 }
 
+.homepage-profile {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    border-radius: 50%;
+}
+
 .header {
-    margin: 0 0 8px;
     text-align: center;
-    border-bottom: 8px solid #de1b1b;
+    background-color: #3c3c3c;
+    border-bottom: 8px solid yellow;
     text-shadow: .5px .5px grey;
 }
 
 .container {
-    background-color: #1d1b1b;
+    
     overflow:hidden;
     word-wrap: break-word;
     padding: 3%;
@@ -34,11 +66,25 @@ ul {
     padding: 2%;
 }
 
+.title {
+    font-family: 'Playfair Display';
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.title-1 {
+    margin: 5px;
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+}
+
 .about-me {
+    font-family: 'Poppins';
     padding: .75%;
-    color: white;
+    color: black;
     font-size: .60rem;
-    text-shadow: .5px .5px black;
+    line-height: 2em;
+    text-shadow: 2 px 2px black;
 }
 
 .right-side {

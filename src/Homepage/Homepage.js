@@ -6,11 +6,10 @@ class Homepage extends Component {
     render () {
         return (
             <main>
+                <h1 className='title'>CHAVIS MARR</h1>
             <header className='header'>
-            <div>
-                <h1 className='title'>SUPER AWESOME TITLE</h1>
-            </div>
             <div className='nav-links'>
+                <span><img className='homepage-profile' src={require('../images/homepage/IMG_4616.JPG')} alt='No image found'></img></span>
                 <NavLink to='/'>HOME</NavLink>
                 <NavLink to='/gallery'>GALLERY</NavLink>
                 <NavLink to='/services'>SERVICES</NavLink>
@@ -19,6 +18,7 @@ class Homepage extends Component {
             </header>
             <div className='container'>
             <div className='bio'>
+                <h1 className='title-1'>MEET THE CHEF</h1>
                 <p className='about-me'>Born in Memphis but raised in Florida, I grew up learning the art of slow 
                 cooking and BBQ from my Family, many of whom were in the food and beverage industry. I knew early 
                 on that I wanted to be a chef when I grew up. </p>
@@ -46,10 +46,10 @@ class Homepage extends Component {
             <div className='right-side'>
                 <ul>
                     <li>
-                    <img className='homepage-images' src={require('../images/homepage/IMG_0103.jpg')} alt='No image found'></img>
+                    <img className='homepage-images' src={require('../images/homepage/IMG_4655.jpg')} alt='No image found'></img>
                     </li>
                     <li>
-                    <img className='homepage-images' src={require('../images/homepage/IMG_1356.jpg')} alt='No image found'></img>
+                    <img className='homepage-images' src={require('../images/homepage/IMG_4657.jpg')} alt='No image found'></img>
                     </li>
                 </ul>
             </div>
