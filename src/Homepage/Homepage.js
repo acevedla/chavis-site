@@ -46,10 +46,10 @@ class Homepage extends Component {
             <div className='right-side'>
                 <ul>
                     <li>
-                    <img className='homepage-images' src={require('../images/homepage/IMG_4655.jpg')} alt='No image found'></img>
+                    <img className='homepage-images' src={require('../images/homepage/IMG_4655.JPG')} alt='No image found'></img>
                     </li>
                     <li>
-                    <img className='homepage-images' src={require('../images/homepage/IMG_4657.jpg')} alt='No image found'></img>
+                    <img className='homepage-images' src={require('../images/homepage/IMG_4657.JPG')} alt='No image found'></img>
                     </li>
                 </ul>
             </div>
