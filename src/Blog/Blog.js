@@ -16,9 +16,7 @@ class Blog extends Component {
     return (
             <main>
             <header className='header'>
-            <div>
-                <h1 className='title'>SUPER AWESOME TITLE</h1>
-            </div>
+          
             <div className='nav-links'>
                 <NavLink to='/'>HOME</NavLink>
                 <NavLink to='/gallery'>GALLERY</NavLink>
